@@ -2,7 +2,7 @@
 module.exports = {
   title: '久染',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'www.siyuanwa.cn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,6 +17,10 @@ module.exports = {
         src: 'img/home/logo.ico',
       },
       items: [
+        {
+          type: 'localeDropdown',
+          position: 'left',
+        },
         {
           to: '/',
           activeBasePath: 'blog',
@@ -52,10 +56,6 @@ module.exports = {
         {
           href: 'https://github.com/1084350607',
           label: 'GitHub',
-          position: 'right',
-        },
-        {
-          type: 'localeDropdown',
           position: 'right',
         },
       ],
@@ -122,7 +122,7 @@ module.exports = {
   ],
   // 国际化
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'zh-cn',
     locales: ['en', 'zh-cn'],
   },
 };
