@@ -27,7 +27,7 @@ export default function HomepageFeatures() {
     <MainWrapper>
       <WelcomeTitle style={props}>
         Welcome to
-        <span className={styles.fontActive}>JiuRan's Channel</span>
+        <span>JiuRan's Channel</span>
       </WelcomeTitle>
       <animated.p style={props2}>Make things as simple as possible but no simpler.</animated.p>
       <StartBtn

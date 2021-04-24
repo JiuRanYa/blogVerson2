@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.resources.category.简介": {
-    "message": "简介",
+    "message": "Introduction",
     "description": "The label for category 简介 in sidebar resources"
   },
   "sidebar.resources.category.前端开发": {
-    "message": "前端开发",
+    "message": "Front-end",
     "description": "The label for category 前端开发 in sidebar resources"
   },
   "sidebar.algorithm.category.二叉树": {

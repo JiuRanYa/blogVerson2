@@ -48,10 +48,12 @@ function BlogTagsPostPageTitle({
       id="theme.blog.tagTitle"
       description="The title of the page for a blog tag"
       values={{nPosts: count, tagName: uppercaseNameFir(tagName)}}>
+      {"\"{tagName}\": {nPosts} 篇"}
     </Translate>
   );
 }
 
+//@ts-ignore
 function BlogTagsPostPage(props: Props): JSX.Element {
   const {metadata, items, sidebar} = props;
   const {allTagsPath, name: tagName, count} = metadata;
@@ -78,6 +80,7 @@ function BlogTagsPostPage(props: Props): JSX.Element {
               <Translate
                 id="theme.tags.tagsPageLink"
                 description="The label of the link targeting the tag list page">
+                {"查看所有标签"}
               </Translate>
             </Link>
             <div className="margin-vert--xl">

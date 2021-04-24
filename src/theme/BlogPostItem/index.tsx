@@ -9,6 +9,7 @@ import React, { useContext } from 'react';
 import clsx from 'clsx';
 import {MDXProvider} from '@mdx-js/react';
 import styled from "@emotion/styled";
+//@ts-ignore
 import Eye from "@site/static/icons/eye.svg";
 import styles from './styles.module.css';
 
@@ -20,7 +21,8 @@ import type {Props} from '@theme/BlogPostItem';
 import ThemeContext from "@theme/ThemeContext";
 import {usePluralForm} from '@docusaurus/theme-common';
 
-import { FlexWrapper } from '@site/src/components/lib.ts'
+//@ts-ignore
+import { FlexWrapper } from '@site/src/components/lib'
 
 const MONTHS = [
   'January',
@@ -59,6 +61,7 @@ function useReadingTimePlural() {
   };
 }
 
+//@ts-ignore
 function BlogPostItem(props: Props): JSX.Element {
   const readingTimePlural = useReadingTimePlural();
   const {
@@ -80,7 +83,8 @@ function BlogPostItem(props: Props): JSX.Element {
   // 是否为黑暗主题：
   // TODO: 修改黑暗主题样式
   const theme = useContext(ThemeContext);
-  const { isDarkTheme } = theme;
+  // @ts-ignore
+  const { isDarkTheme } = theme
 
   // auth信息
   // const authorURL = frontMatter.author_url || frontMatter.authorURL;
@@ -153,7 +157,7 @@ function BlogPostItem(props: Props): JSX.Element {
 
   return (
     <>
-      <Seo {...{keywords, image}} />
+      <Seo {...{title, keywords, image}} />
 
       <article className={!isBlogPostPage ? 'margin-bottom--xl' : undefined}>
         {renderPostHeader()}

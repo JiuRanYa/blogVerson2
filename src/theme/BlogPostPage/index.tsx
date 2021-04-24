@@ -10,11 +10,11 @@ import Layout from '@theme/Layout';
 import BlogPostItem from '@theme/BlogPostItem';
 import BlogPostPaginator from '@theme/BlogPostPaginator';
 import type {Props} from '@theme/BlogPostPage';
-import BlogSidebar from '@theme/BlogSidebar';
 import TOC from '@theme/TOC';
 import EditThisPage from '@theme/EditThisPage';
 import {ThemeClassNames} from '@docusaurus/theme-common';
 
+//@ts-ignore
 function BlogPostPage(props: Props): JSX.Element {
   const {content: BlogPostContents, sidebar} = props;
   const {frontMatter, metadata} = BlogPostContents;
