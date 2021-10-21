@@ -2,13 +2,15 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-## Installation
+个人网站通过 [Docusaurus 2](https://docusaurus.io/) 创建，一个静态网站生成器
+
+## Installation   安装依赖
 
 ```console
 yarn install
 ```
 
-## Local Development
+## Local Development   本地环境
 
 ```console
 yarn start
@@ -16,7 +18,7 @@ yarn start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-## Build
+## Build   本地编译
 
 ```console
 yarn build

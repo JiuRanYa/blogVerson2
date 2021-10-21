@@ -55,7 +55,11 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-.navbar__logo{
+.navbar {
+  box-shadow: none;
+}
+
+.navbar__logo img{
   border-radius: 50%;
   margin-left: 10px;
 }
