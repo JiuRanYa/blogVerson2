@@ -2,7 +2,7 @@
 module.exports = {
   title: '久染',
   tagline: 'Dinosaurs are cool',
-  url: 'www.siyuanwa.cn',
+  url: 'http://www.siyuanwa.cn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
