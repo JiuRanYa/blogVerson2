@@ -51,17 +51,6 @@ module.exports = {
       'react-router/react-router-v6'
     ]
   },
-  framework: {
-    '导读': [
-      'write-your-own-framework/Navigation/frame-navigation'
-    ],
-    '第一章：根目录搭建-万丈高楼平地起': [
-      'write-your-own-framework/one/framework-one',
-    ],
-    第二章: [
-      'write-your-own-framework/two/framework-two'
-    ]
-  }
   // But you can create a sidebar manually
   /*
   tutorialSidebar: [
